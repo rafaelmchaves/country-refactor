@@ -1,6 +1,6 @@
 # Country Refactor
 
-It's a educative game of how create a game in golang.
+educational game on how to create a game in Golang
 
 ## How to start
 
