@@ -34,8 +34,8 @@ type Size struct {
 
 var tilePrices = map[TileType]int{
 	Road:     2,
-	House:    50,
-	Hospital: 20,
+	House:    20,
+	Hospital: 50,
 	Farm:     20,
 }
 
@@ -54,7 +54,7 @@ type Game struct {
 
 func NewGame() *Game {
 	return &Game{
-		balance:   1000,
+		balance:   50000,
 		buildMode: Road,
 	}
 }
